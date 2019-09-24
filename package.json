@@ -1,0 +1,29 @@
+{
+  "name": "customprimeng",
+  "version": "1.0.0",
+  "description": "Customizing PrimeNg to isolate its effects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "prepack": "sass isolateRules.scss:dist/custom.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalaikaran/customPrimeNg.git"
+  },
+  "keywords": [
+    "isolatedPrimeNg",
+    "isoPrime",
+    "primeng"
+  ],
+  "author": "Kalaikaran K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalaikaran/customPrimeNg/issues"
+  },
+  "homepage": "https://github.com/kalaikaran/customPrimeNg#readme",
+  "dependencies": {
+    "primeng": "^7.1.0",
+    "sass": "^1.17.3"
+  }
+}
